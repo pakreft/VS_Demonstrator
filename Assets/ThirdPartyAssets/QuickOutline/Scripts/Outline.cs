@@ -54,19 +54,19 @@ public class Outline : MonoBehaviour {
   }
 
   [SerializeField]
-  private Mode outlineMode = Mode.OutlineAll;
+  private Mode outlineMode = GameData.GetOutlineMode();
 
   [SerializeField]
-  private Color outlineColor = Color.yellow;
+  private Color outlineColor = GameData.GetOutlineColor();
 
   [SerializeField, Range(0f, 20f)]
-  private float outlineWidth = 15f;
+  private float outlineWidth = GameData.GetOutlineWidth();
 
   [Header("Optional")]
 
   [SerializeField, Tooltip("Precompute enabled: Per-vertex calculations are performed in the editor and serialized with the object. "
   + "Precompute disabled: Per-vertex calculations are performed at runtime in Awake(). This may cause a pause for large meshes.")]
-  private bool precomputeOutline;
+  private bool precomputeOutline = GameData.GetPrecomputeOutline();
 
   [SerializeField, HideInInspector]
   private List<Mesh> bakeKeys = new List<Mesh>();
