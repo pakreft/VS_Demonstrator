@@ -4,7 +4,6 @@
     <list default="true" id="db0eb87f-c480-4876-993a-7d82379b24da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VS_Demonstrator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VS_Demonstrator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPartyAssets/QuickOutline/Scripts/Outline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/QuickOutline/Scripts/Outline.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +70,7 @@
       <workItem from="1671548916802" duration="948000" />
       <workItem from="1671550013731" duration="1145000" />
       <workItem from="1671551383710" duration="1193000" />
+      <workItem from="1672404426532" duration="6847000" />
     </task>
     <servers />
   </component>
