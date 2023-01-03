@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -851,7 +851,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.25100002, y: 0.029272899}
   m_AnchorMax: {x: 0.76713353, y: 0.18264242}
-  m_AnchoredPosition: {x: -18.500504, y: 60.500008}
+  m_AnchoredPosition: {x: -18.500519, y: 60.50006}
   m_SizeDelta: {x: -881, y: -103}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749724265
@@ -1112,9 +1112,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1354238566}
+  - component: {fileID: 1354238568}
   - component: {fileID: 1354238567}
   m_Layer: 0
-  m_Name: Managers -----
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1147,10 +1148,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5a3485d38615348aa214bc4b8790be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1354238568}
   stepCounter: {fileID: 2072341966}
   mistakeCounter: {fileID: 1946188482}
   hintCounter: {fileID: 477156700}
   infoText: {fileID: 749724265}
+--- !u!114 &1354238568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354238565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72a430c218452a41859ffc852c51a2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiManager: {fileID: 1354238567}
 --- !u!1 &1841758464
 GameObject:
   m_ObjectHideFlags: 0
